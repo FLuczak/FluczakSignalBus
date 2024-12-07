@@ -19,7 +19,7 @@ This library provides a lightweight and flexible mechanism for event-driven prog
 
 ```cpp
 #include <iostream>
-#include "Delegate.h"  // Assuming the library containing Delegate class
+#include "Delegate.hpp"  
 
 // Define an event type
 struct PrintEvent
@@ -72,7 +72,7 @@ Consider a scenario where we want to create a messaging system for sending notif
 
 ```cpp
 #include <iostream>
-#include "SignalBus.h"  // Assuming the library is contained here
+#include "SignalBus.hpp"  // Assuming the library is contained here
 
 // Define an event type
 struct MessageEvent
